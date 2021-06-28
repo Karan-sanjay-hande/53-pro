@@ -1,0 +1,18 @@
+.aboutme{
+  border: double;
+  position: fixed;
+  left: 30px;
+ 
+}
+
+h2{
+   
+   padding-left: 650px;
+   border: solid;
+}
+
+*{
+    
+    color: rgb(3, 70, 90);
+    background-color:cornsilk;
+}

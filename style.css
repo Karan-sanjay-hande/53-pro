@@ -1,0 +1,64 @@
+.s{
+    border:double;
+    border-width:3mm;     
+    padding: 10px;
+    word-spacing: 10px;
+    font-variant: small-caps;
+}
+
+.site-description{
+    border:double;
+    border-width:3mm; 
+    font-variant: small-caps;
+}
+
+.menu *{
+    border:solid;
+}
+
+.menu{   
+    display : flex;
+   justify-content:flex-end;
+}
+
+.grid{
+ display: flex;
+ justify-content:space-between;
+ align-items: baseline;
+ flex-wrap :wrap-reverse; 
+ align-content: space-between;
+}
+
+.footer{
+    border: double;
+    border-width:3mm ;
+  font-variant: small-caps;    
+  display: flex;
+  justify-content:flex-end
+}
+
+body{
+ background-color: #cbcddf;
+}
+
+.grid{
+     
+     position: relative;
+     margin-top: 20px;   
+}
+
+.origami p{
+    position: absolute;
+    top: 60;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+}
+
+.origami:hover p{
+    opacity: 1;
+}
+
+.origami:hover img{
+    opacity: 0.3;
+} 
